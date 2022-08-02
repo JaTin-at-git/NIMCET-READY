@@ -1,6 +1,6 @@
 let limits = {
     "Permutation_and_combination": 0,
-    "Probability": 8,
+    "Probability": 0,
     "Sets_and_relations": 77
 }
 
