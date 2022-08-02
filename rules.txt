@@ -1,0 +1,9 @@
+Folder naming conventions:
+>Folder name of different topics shall start from capital letter followed by all small letters.
+>There shall be 'underscore' at the place of spaces
+
+Naming question inside folder
+>each question has this format: q (1).png
+
+Naming id of input checkboxes for topic selection
+>The id of the input shall be the folder name, example:

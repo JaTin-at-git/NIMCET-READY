@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+
+    <title>NIMCET READY</title>
+</head>
+<body>
+
+<div class="notificationDiv">
+    <div class="notificationID1" id="warning">
+        This is a notification
+    </div>
+</div>
+
+<div class="heading">
+    <h1><span>NIMCET</span> READY</h1>
+    <p>Get random questions to practice from various topics</p>
+</div>
+
+<div class="topicsSelection">
+    <div class="topicSelectionID1">
+        <h3>Select Topics:</h3>
+        <div class="topicsCheckboxes">
+
+            <div class="topicInput">
+                <input type="checkbox" id="Sets_and_relations">
+                <label for="Sets_and_relations">Sets and Relations</label>
+            </div>
+
+            <div class="topicInput">
+                <input type="checkbox" id="Probability">
+                <label for="Probability">Probability</label>
+            </div>
+
+            <div class="topicInput">
+                <input type="checkbox" id="Permutation_and_combination">
+                <label for="Permutation_and_combination">Permutation and combination</label>
+            </div>
+
+        </div>
+
+        <div class="quantityDiv">
+            <label for="x">Generate</label>
+            <label class="n" for="x">&nbsp;0 +&nbsp;</label>
+            <input type="number" id="x" min="0" max="100" value="5">
+            <label for="x">&nbsp; questions</label>
+        </div>
+
+        <div class="getQuestionsDiv">
+            <div id="getQuestionsButton">Generate questions &rarr;</div>
+        </div>
+    </div>
+</div>
+
+<div class="questionsDiv">
+</div>
+
+<div class="me">
+    <p>Created with ❤ by <span>Jigyasu Saini</span></p>
+</div>
+
+<script src="js.js"></script>
+
+</body>
+</html>
